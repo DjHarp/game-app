@@ -1,6 +1,6 @@
 ## Things that need done
 - [x] Set up maven wrapper
-- [ ] Set up Springboot 3
+- [ ] Set up [Springboot 3](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Release-Notes)
 - [ ] Set up services
     - [ ] Get player account
     - [ ] Get player experience (time passed between now and last log in)
