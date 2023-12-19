@@ -1,0 +1,28 @@
+## Things that need done
+- [x] Set up maven wrapper
+- [ ] Set up Springboot 3
+- [ ] Set up services
+    - [ ] Get player account
+    - [ ] Get player experience (time passed between now and last log in)
+- [ ] Set up dynamic code generation
+    - [ ] [OpenAPI generator](https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator-maven-plugin)
+    - [ ] Optional
+- [ ] Set up Dockerfile
+    - [ ] Image for Java
+    - [ ] Image for UI
+    - [ ] Image for DB
+- [ ] Set up database (postgresql)
+    - [ ] Document setup in [database.md](database.md)
+    - [ ] Migration scripts (flyway)
+    - [ ] User table
+        - user id
+        - user name
+        - last log in
+        - current experience
+- [ ]Set up react app (vite)
+    - [ ] Login page
+    - [ ] Player state page
+- [ ] Set up authentication
+    - [ ] User can log in
+    - OAuth vs U/P?
+- [ ] Set up dummy user profiles
