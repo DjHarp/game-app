@@ -19,7 +19,7 @@
         - user name
         - last log in
         - current experience
-- [ ]Set up react app (vite)
+- [ ] Set up react app (vite)
     - [ ] Login page
     - [ ] Player state page
 - [ ] Set up authentication
