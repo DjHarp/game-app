@@ -4,10 +4,8 @@ import game.server.manager.UserManager;
 import game.server.model.User;
 import game.server.model.UserCreationRequest;
 import game.server.model.UserExperienceRequest;
-import jakarta.websocket.server.PathParam;
 import java.util.List;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
