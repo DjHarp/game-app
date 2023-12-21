@@ -1,6 +1,6 @@
 ## Things that need done
 - [x] Set up maven wrapper
-- [ ] Set up [Springboot 3]([https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Release-Notes](https://spring.io/projects/spring-boot))
+- [x] Set up [Springboot 3](https://spring.io/projects/spring-boot)
 - [ ] Set up services
     - [ ] Get player account
     - [ ] Get player experience (time passed between now and last log in)
@@ -11,7 +11,7 @@
     - [ ] Image for Java
     - [ ] Image for UI
     - [ ] Image for DB
-- [ ] Set up database (postgresql)
+- [ ] Set up database (postgresql) (see entries in POM)
     - [ ] Document setup in [database.md](database.md)
     - [ ] Migration scripts (flyway)
     - [ ] User table
@@ -24,5 +24,5 @@
     - [ ] Player state page
 - [ ] Set up authentication
     - [ ] User can log in
-    - OAuth vs U/P?
+    - OAuth vs U/P, BOTH?
 - [ ] Set up dummy user profiles

@@ -1,0 +1,37 @@
+spring:
+#  datasource:
+#    url:
+#    username:
+#    password:
+#  jpa:
+#  flyway:
+#  web:
+#  mvc:
+#  servlet:
+#  main:
+  devtools:
+    livereload:
+      enabled: false
+  security:
+    user:
+      name: admin
+      password: admin
+springdoc:
+  api-docs.path: /openapi.json
+  show-actuator: true
+  version: v1
+  title: Game App Server
+  writer-with-order-by-keys: true
+  swagger-ui:
+    operationsSorter: method
+    tagsSorter: alpha
+    enabled: true
+server:
+  servlet:
+      context-path: /game-server
+      encoding:
+        force: true
+  compression:
+      enabled: true
+      mime-types: text/html,text/css,application/json,application/javascript
+      min-response-size: 1024
