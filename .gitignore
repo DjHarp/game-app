@@ -9,5 +9,6 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 
 .idea
+.vscode
 # JDT-specific (Eclipse Java Development Tools)
 .classpath

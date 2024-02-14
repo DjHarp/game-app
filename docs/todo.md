@@ -1,23 +1,36 @@
 ## Things that need done
 - [x] Set up maven wrapper
 - [x] Set up [Springboot 3](https://spring.io/projects/spring-boot)
-- [ ] Set up services
+- [ ] Establish design document
+- [ ] Set up services (Controllers)
     - [ ] Get player account
     - [ ] Get player experience (time passed between now and last log in)
 - [ ] Set up dynamic code generation
     - [ ] [OpenAPI generator](https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator-maven-plugin)
     - [ ] Optional
-- [ ] Set up Dockerfile
-    - [ ] Image for Java
+- [ ] Set up Dockerfile [see this](https://www.baeldung.com/ops/docker-compose-support-spring-boot#:~:text=We%20can%20now%20delegate%20those,%2C%20MongoDB%2C%20Cassandra%2C%20etc.)
+    - [ ] Image for Server
     - [ ] Image for UI
     - [ ] Image for DB
-- [ ] Set up database (postgresql) (see entries in POM)
+- [ ] Set up database (postgresql) (see entries in POM) (CRUDRepository)
     - [ ] Document setup in [database.md](database.md)
     - [ ] Migration scripts (flyway)
     - [ ] User table
+        - id
+        - name
+        - last log in timestamp
+        - current experience
+        - current level
+    - [ ] Ally table
         - user id
-        - user name
-        - last log in
+        - id
+        - name
+        - class (worker, fighter, learner)
+    - [ ] Skill tracking table
+        - user id
+        - ally id
+        - id
+        - current level
         - current experience
 - [ ] Set up react app (vite)
     - [ ] Login page
@@ -26,3 +39,5 @@
     - [ ] User can log in
     - OAuth vs U/P, BOTH?
 - [ ] Set up dummy user profiles
+- [ ] Set up level math
+- [ ] Set up level up based on timestamps
